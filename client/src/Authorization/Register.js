@@ -40,13 +40,13 @@ export default function Register() {
             <Form onSubmit={(e) => handleSubmit(e)}>
                 {/* login */}
                 <Form.Group controlId="formBasicLogin">
-                    <Form.Label>Login</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control
                         type="login"
                         name="login"
                         value={login}
                         onChange={(e) => setLogin(e.target.value)}
-                        placeholder="Enter login"
+                        placeholder="Enter email"
                     />
                 </Form.Group>
 

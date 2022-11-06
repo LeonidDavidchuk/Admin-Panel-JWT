@@ -9,6 +9,7 @@ import { Button } from "react-bootstrap";
 const cookies = new Cookies();
 const token = cookies.get("TOKEN");
 
+
 export default function AuthComponent() {
 
     const navigate = useNavigate();

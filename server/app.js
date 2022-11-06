@@ -13,6 +13,7 @@ const cors = require('cors');
 const { body, validationResult } = require('express-validator');
 
 
+
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
 
   res.send("Hello World!");
 })
+
 
 
 // register endpoint
